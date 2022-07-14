@@ -3,6 +3,7 @@ import numpy as np
 from scipy.integrate import odeint
 
 '''
+Epidemic Model for HIV/AIDS under consideration
 S˙ = A − βIS − μS − dS,
 I˙ = βIS + r1T − dI − k1I − k2I,
 A˙ = k1I − (δ1 + d)A + r2T,
